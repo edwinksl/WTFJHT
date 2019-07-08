@@ -1,14 +1,14 @@
 source 'https://rubygems.org'
 
-gem 'github-pages'
-gem 'jekyll-sitemap'
+gem 'github-pages', '>= 192'
+gem 'jekyll-sitemap', '>= 1.1.1'
 gem 'jekyll-paginate'
-gem 'jekyll-redirect-from'
-gem 'jekyll-extlinks'
-gem 'jekyll-archives'
-gem 'jekyll-include-cache'
+gem 'jekyll-redirect-from', '>= 0.12.1'
+gem 'jekyll-extlinks', '>= 0.0.4'
+gem 'jekyll-archives', '>= 2.1.1'
+gem 'jekyll-include-cache', '>= 0.1.0'
 
 group :jekyll_plugins do
   gem 'algoliasearch-jekyll'
-  gem 'jekyll_pages_api'
+  gem 'jekyll_pages_api', '>= 0.1.6'
 end
