@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'github-pages'
+gem 'github-pages', '>= 207'
 gem 'jekyll-sitemap'
 gem 'jekyll-paginate'
 gem 'jekyll-redirect-from'
