@@ -4,9 +4,9 @@ gem 'github-pages'
 gem 'jekyll-sitemap'
 gem 'jekyll-paginate'
 gem 'jekyll-redirect-from'
-gem 'jekyll-extlinks'
+gem 'jekyll-extlinks', '>= 0.0.5'
 gem 'jekyll-archives'
-gem 'jekyll-include-cache'
+gem 'jekyll-include-cache', '>= 0.2.0'
 
 group :jekyll_plugins do
   gem 'algoliasearch-jekyll'
